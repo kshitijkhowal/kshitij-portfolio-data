@@ -7,7 +7,7 @@
   "endDate": "2025-11",
   "location": null,
   "website": "https://ambak.com/",
-  "icon": "../../Icons/Ambak/AmbakIcon.svg",
+  "icon": "Assets/Icons/CompanyIcons/Ambak/AmbakIcon.svg",
   "products": [
     {
       "name": "Ambak Yoddha",

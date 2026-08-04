@@ -1,0 +1,73 @@
+[
+  {
+    "id": "social-name",
+    "key": "name",
+    "value": {
+      "first": "Kshitij",
+      "last": "Khowal",
+      "full": "Kshitij Khowal"
+    }
+  },
+  {
+    "id": "social-phone",
+    "key": "phone",
+    "value": "+91-8287159748"
+  },
+  {
+    "id": "social-email",
+    "key": "email",
+    "value": "kshitij.durgesh@gmail.com"
+  },
+  {
+    "id": "social-location",
+    "key": "location",
+    "value": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  },
+  {
+    "id": "social-linkedin",
+    "key": "linkedin",
+    "value": "https://www.linkedin.com/in/kshitijkhowal/"
+  },
+  {
+    "id": "social-github",
+    "key": "github",
+    "value": "https://github.com/kshitijkhowal"
+  },
+  {
+    "id": "social-portfolio",
+    "key": "portfolio",
+    "value": null
+  },
+  {
+    "id": "social-other",
+    "key": "other",
+    "value": []
+  },
+  {
+    "id": "social-headline",
+    "key": "headline",
+    "value": "Mobile App Developer · React Native · Expo · iOS & Android"
+  },
+  {
+    "id": "social-summary",
+    "key": "summary",
+    "value": "React Native developer shipping production apps used by thousands on iOS and Android. DTU Engineering Physics graduate (Minor in CS, CGPA 8.8). Focused on performance, clean releases, CI/CD, and features people actually use."
+  },
+  {
+    "id": "social-preferences",
+    "key": "preferences",
+    "value": {
+      "targetRoles": [
+        "Mobile Application Developer",
+        "React Native Developer"
+      ],
+      "workAuthorization": null,
+      "willingToRelocate": null,
+      "remotePreference": "remote-or-onsite"
+    }
+  }
+]

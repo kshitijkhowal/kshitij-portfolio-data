@@ -7,7 +7,7 @@
   "endDate": "present",
   "location": null,
   "website": "https://brokerapp.com/",
-  "icon": "../../Icons/BrokerApp/BrokerAppIcon.svg",
+  "icon": "Assets/Icons/CompanyIcons/BrokerApp/BrokerAppIcon.svg",
   "products": [
     {
       "name": "BrokerApp",

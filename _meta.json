@@ -4,9 +4,7 @@
   "lastUpdated": "2026-08-04",
   "structure": {
     "Socials": {
-      "contact.json": "Name, phone, email, location",
-      "links.json": "LinkedIn, GitHub, portfolio, other links",
-      "profile.json": "Headline, summary, job preferences"
+      "socials.json": "Array of social/contact/profile entries (each with an id)"
     },
     "Education": {
       "education.json": "All education entries (consolidated array)"

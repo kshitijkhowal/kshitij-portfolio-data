@@ -7,7 +7,7 @@
   "endDate": "2024-07",
   "location": "On-Site",
   "website": null,
-  "icon": "../../Icons/GrowthMarketers/GrowthMarketersIcon.svg",
+  "icon": "Assets/Icons/CompanyIcons/GrowthMarketers/GrowthMarketersIcon.svg",
   "products": [
     {
       "name": "CRM Mobile App",
