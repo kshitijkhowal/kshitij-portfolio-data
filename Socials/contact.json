@@ -1,0 +1,14 @@
+{
+  "name": {
+    "first": "Kshitij",
+    "last": "Khowal",
+    "full": "Kshitij Khowal"
+  },
+  "phone": "+91-8287159748",
+  "email": "kshitij.durgesh@gmail.com",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}

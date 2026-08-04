@@ -1,0 +1,44 @@
+{
+  "id": "exp-growth-marketers",
+  "company": "Growth Marketers",
+  "role": "Junior Software Developer",
+  "employmentType": "intern",
+  "startDate": "2024-06",
+  "endDate": "2024-07",
+  "location": "On-Site",
+  "website": null,
+  "icon": "../../Icons/GrowthMarketers/GrowthMarketersIcon.svg",
+  "products": [
+    {
+      "name": "CRM Mobile App",
+      "platforms": ["android", "ios"],
+      "storeLinks": {}
+    },
+    {
+      "name": "Admin Portal",
+      "platforms": ["web"],
+      "storeLinks": {}
+    }
+  ],
+  "techStack": [
+    "React Native",
+    "Node.js",
+    "Express",
+    "Git Submodules"
+  ],
+  "bullets": [
+    {
+      "id": "exp-gm-001",
+      "text": "Created and connected multiple APIs for the CRM mobile app and admin portal.",
+      "tags": ["api", "integration", "full-stack"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-gm-002",
+      "text": "Coordinated shared services using a centralized Git submodule across client, admin, and backend repositories.",
+      "tags": ["git-submodules", "architecture", "monorepo"],
+      "metrics": {}
+    }
+  ],
+  "notes": null
+}

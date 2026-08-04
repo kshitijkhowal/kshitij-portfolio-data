@@ -1,0 +1,37 @@
+{
+  "id": "proj-messaging-app",
+  "name": "Messaging Application",
+  "type": "personal",
+  "startDate": null,
+  "endDate": null,
+  "status": null,
+  "icon": null,
+  "links": {
+    "android": null,
+    "ios": null,
+    "github": null,
+    "demo": null
+  },
+  "techStack": [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "Socket.io"
+  ],
+  "bullets": [
+    {
+      "id": "proj-msg-001",
+      "text": "Built a real-time chat application using the MERN stack integrated with Socket.io.",
+      "tags": ["mern", "real-time", "socket-io"],
+      "metrics": {}
+    },
+    {
+      "id": "proj-msg-002",
+      "text": "Implemented authentication and authorization using JWT for secure access control.",
+      "tags": ["authentication", "jwt", "security"],
+      "metrics": {}
+    }
+  ],
+  "notes": null
+}

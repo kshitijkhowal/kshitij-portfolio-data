@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "id": "mobile",
+      "category": "Mobile",
+      "icon": "smartphone",
+      "skills": [
+        { "name": "React Native", "level": "Expert" },
+        { "name": "Expo", "level": "Expert" },
+        { "name": "React Native Reanimated", "level": "Intermediate" }
+      ]
+    },
+    {
+      "id": "languages-frontend",
+      "category": "Languages & Frontend",
+      "icon": "code",
+      "skills": [
+        { "name": "JavaScript", "level": "Expert" },
+        { "name": "TypeScript", "level": "Intermediate" },
+        { "name": "React.js", "level": "Expert" },
+        { "name": "C / C++", "level": "Intermediate" }
+      ]
+    },
+    {
+      "id": "backend-databases",
+      "category": "Backend & Databases",
+      "icon": "database",
+      "skills": [
+        { "name": "Node.js", "level": "Intermediate" },
+        { "name": "Express.js", "level": "Intermediate" },
+        { "name": "MongoDB", "level": "Intermediate" },
+        { "name": "PostgreSQL / SQL", "level": "Intermediate" },
+        { "name": "REST APIs", "level": "Expert" }
+      ]
+    },
+    {
+      "id": "cloud-monitoring",
+      "category": "Cloud & Monitoring",
+      "icon": "shield",
+      "skills": [
+        { "name": "Firebase (Crashlytics, App Distribution)", "level": "Expert" },
+        { "name": "Google OAuth", "level": "Intermediate" },
+        { "name": "Socket.io", "level": "Intermediate" }
+      ]
+    },
+    {
+      "id": "tools-cicd",
+      "category": "Tools & CI/CD",
+      "icon": "settings",
+      "skills": [
+        { "name": "Fastlane / CI/CD", "level": "Expert" },
+        { "name": "Flipper & Performance Monitor", "level": "Intermediate" },
+        { "name": "Postman / Charles Proxy", "level": "Intermediate" },
+        { "name": "Git", "level": "Expert" }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "category": "AI Tools",
+      "icon": "cpu",
+      "skills": [
+        { "name": "Cursor", "level": "Expert" },
+        { "name": "Claude", "level": "Expert" },
+        { "name": "On-device LLM features", "level": "Intermediate" }
+      ]
+    }
+  ]
+}

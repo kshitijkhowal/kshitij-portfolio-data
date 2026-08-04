@@ -1,0 +1,76 @@
+{
+  "id": "proj-metroconnect",
+  "name": "MetroConnect",
+  "type": "personal",
+  "startDate": null,
+  "endDate": null,
+  "status": "published",
+  "icon": "../../Icons/MetroConnect/MetroConnectIcon.svg",
+  "links": {
+    "android": "https://play.google.com/store/apps/details?id=com.kshitij_khowal.MetroConnect",
+    "ios": null,
+    "github": null,
+    "demo": null
+  },
+  "techStack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "Redux Toolkit",
+    "Firebase Remote Config",
+    "Expo Location",
+    "Fuse.js",
+    "BFS"
+  ],
+  "bullets": [
+    {
+      "id": "proj-mc-001",
+      "text": "Built a Delhi Metro route planner covering 250+ stations with dual optimization modes \u2014 BFS for fewest stops and a custom minimum-interchange pathfinder \u2014 across DMRC, Rapid Metro, and Airport Express lines.",
+      "tags": [
+        "react-native",
+        "expo",
+        "algorithms",
+        "bfs",
+        "graph-traversal"
+      ],
+      "metrics": {
+        "stations": "250+"
+      }
+    },
+    {
+      "id": "proj-mc-002",
+      "text": "Implemented official-style fare estimation with distance-based DMRC slabs, Rapid Metro premium fares, and Airport Express matrix pricing, including weekday and holiday rate handling.",
+      "tags": [
+        "fare-calculation",
+        "business-logic",
+        "typescript"
+      ],
+      "metrics": {}
+    },
+    {
+      "id": "proj-mc-003",
+      "text": "Designed commute-focused mobile UX with fuzzy offline station search (Fuse.js), GPS nearest-station detection, live journey progress, saved quick routes, and adaptive light/dark themes.",
+      "tags": [
+        "ui-ux",
+        "mobile-design",
+        "expo-location",
+        "fuse-js"
+      ],
+      "metrics": {}
+    },
+    {
+      "id": "proj-mc-004",
+      "text": "Architected a modular TypeScript service layer for routing, fares, stations, and geo-location, with Redux Persist for local state and Firebase Remote Config for version-driven app update prompts.",
+      "tags": [
+        "architecture",
+        "redux",
+        "firebase",
+        "typescript"
+      ],
+      "metrics": {}
+    }
+  ],
+  "notes": null,
+  "category": "Cross-Platform Mobile",
+  "featured": true
+}

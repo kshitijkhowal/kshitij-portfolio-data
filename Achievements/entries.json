@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "ach-dept-rank",
+      "text": "Secured Department Rank 1 in 3rd year with GPA of 9.74 (5th semester) and 9.33 (6th semester).",
+      "category": "academic",
+      "tags": ["academic", "gpa"],
+      "metrics": { "rank": 1, "gpaSem5": 9.74, "gpaSem6": 9.33 }
+    },
+    {
+      "id": "ach-leetcode",
+      "text": "Reached LeetCode Contest Rating 1572, ranking among the Top 27%.",
+      "category": "competitive-programming",
+      "tags": ["leetcode", "dsa"],
+      "metrics": { "rating": 1572, "percentile": "Top 27%" }
+    },
+    {
+      "id": "ach-dsa-problems",
+      "text": "Completed 400+ Data Structures and Algorithms problems across multiple coding platforms.",
+      "category": "competitive-programming",
+      "tags": ["dsa", "problem-solving"],
+      "metrics": { "problemsSolved": "400+" }
+    },
+    {
+      "id": "ach-hacker-blocks",
+      "text": "Achieved the highest score possible at Hacker Blocks.",
+      "category": "competitive-programming",
+      "tags": ["competitive-programming"],
+      "metrics": {}
+    }
+  ],
+  "pending": []
+}

@@ -1,0 +1,26 @@
+{
+  "introLead": "Hey, I'm",
+  "introRole": "a React Native developer",
+  "introRest": "shipping production apps used by thousands on iOS and Android.",
+  "body": "DTU Engineering Physics graduate (Minor in CS, CGPA 8.8). I care about performance, clean releases, and shipping features that people actually use — from feed optimization and payments to CI/CD and on-device AI.",
+  "highlights": [
+    { "icon": "📱", "label": "React Native" },
+    { "icon": "⚡", "label": "Expo" },
+    { "icon": "🔥", "label": "Firebase" },
+    { "icon": "🤖", "label": "AI Integration" },
+    { "icon": "🚀", "label": "CI/CD" },
+    { "icon": "🎨", "label": "Clean UI" }
+  ],
+  "cards": {
+    "locationNote": "Available for remote & on-site roles",
+    "stackTitle": "React Native & Expo",
+    "stackSubtitle": "JS · TS · Node · Firebase",
+    "driveMe": "Smooth 60 FPS apps, one-command releases, and features users actually feel."
+  },
+  "focusBlurb": {
+    "title": "FOCUSED ON MOBILE ENGINEERING",
+    "body": "Shipping production React Native apps — from Expo migrations and CI/CD to performance tuning, payments, and on-device AI features.",
+    "focusLabel": "Focus Area",
+    "focusValue": "React Native · Expo · CI/CD"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "version": "1.2.0",
+  "description": "Structured personal data for portfolio and resume generation",
+  "lastUpdated": "2026-08-04",
+  "structure": {
+    "Socials": {
+      "contact.json": "Name, phone, email, location",
+      "links.json": "LinkedIn, GitHub, portfolio, other links",
+      "profile.json": "Headline, summary, job preferences"
+    },
+    "Education": {
+      "dtu.json": "B.Tech — Delhi Technological University",
+      "deen-bandhu-xii.json": "Class XII — Deen Bandhu Public School",
+      "dldav-x.json": "Class X — DL DAV Model School"
+    },
+    "Achievements": {
+      "entries.json": "Academic and competitive programming achievements"
+    },
+    "Experience": {
+      "brokerapp.json": "BrokerApp — Mobile Application Developer",
+      "ambak.json": "Ambak — React Native Developer",
+      "growth-marketers.json": "Growth Marketers — Junior Software Developer",
+      "reusable-points.json": "Categorized bullets for mix-and-match / job tailoring"
+    },
+    "Projects": {
+      "metroconnect.json": "Delhi Metro route planner",
+      "messaging-app.json": "Real-time chat application"
+    },
+    "Skills": {
+      "programming-languages.json": "C, C++, JavaScript, TypeScript",
+      "frameworks-and-libraries.json": "React Native, Node.js, Express, etc.",
+      "mobile-and-devops.json": "Expo, Firebase, Fastlane, EAS, etc.",
+      "databases.json": "SQL, PostgreSQL, MongoDB, SQL Server",
+      "apis-and-integrations.json": "REST, OAuth, Socket.io, Razorpay",
+      "tools.json": "Postman, Git, Cursor, etc.",
+      "soft-skills.json": "Ownership, collaboration, release planning, etc.",
+      "certifications.json": "Certifications (to be filled)",
+      "spoken-languages.json": "Spoken languages (to be filled)"
+    },
+    "Site": {
+      "hero.json": "Hero status pill, tagline, CTAs",
+      "about.json": "About bio, highlights, cards",
+      "nav.json": "Brand and navigation",
+      "skills-display.json": "Skills section grouping for portfolio UI",
+      "contact.json": "Contact section copy and SEO meta"
+    }
+  },
+  "conventions": {
+    "dates": "Use 'YYYY-MM' format (e.g. '2025-11') or 'present' for endDate",
+    "bulletIds": "Prefix by domain: exp-, proj-, rn-, perf-, etc.",
+    "tags": "Lowercase kebab-case for job-description matching",
+    "placeholders": "Fields marked with null or empty arrays are intended to be filled in later"
+  }
+}

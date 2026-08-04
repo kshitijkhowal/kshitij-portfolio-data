@@ -1,0 +1,14 @@
+{
+  "headline": "Let's build something people actually use.",
+  "body": "Looking for a React Native engineer who ships production iOS & Android apps, owns CI/CD, and cares about performance? Reach out.",
+  "form": {
+    "successTitle": "Message Dispatched!",
+    "successBody": "Thanks for reaching out. Kshitij will respond via email as soon as possible.",
+    "submitLabel": "Send Message"
+  },
+  "meta": {
+    "title": "Kshitij Khowal | Mobile App Developer | React Native",
+    "description": "Portfolio of Kshitij Khowal, Mobile Application Developer specializing in React Native, Expo, and cross-platform iOS & Android apps.",
+    "keywords": "Kshitij Khowal, Mobile App Developer, React Native, Expo, Firebase, Delhi, Portfolio, BrokerApp, Ambak"
+  }
+}

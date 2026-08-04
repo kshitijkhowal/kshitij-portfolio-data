@@ -1,0 +1,15 @@
+{
+  "statusPill": "Open to Opportunities",
+  "taglineParts": [
+    "Mobile App Developer",
+    "React Native",
+    "Expo",
+    "iOS & Android"
+  ],
+  "ctas": {
+    "projects": "View Projects",
+    "resume": "Download Resume",
+    "contact": "Contact Me"
+  },
+  "resumePath": "/KshitijKhowal_Resume.pdf"
+}

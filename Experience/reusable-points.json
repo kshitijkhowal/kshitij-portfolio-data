@@ -1,0 +1,320 @@
+{
+  "description": "Categorized experience bullets for mix-and-match resume tailoring. Link to specific roles via relatedExperienceIds when applicable.",
+  "categories": {
+    "reactNative": {
+      "label": "React Native",
+      "points": [
+        {
+          "id": "rn-001",
+          "text": "2+ years of professional React Native development experience.",
+          "tags": ["react-native", "experience"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak"]
+        },
+        {
+          "id": "rn-002",
+          "text": "Built and maintained cross-platform applications for Android and iOS.",
+          "tags": ["react-native", "android", "ios", "cross-platform"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak"]
+        },
+        {
+          "id": "rn-003",
+          "text": "Worked with both React Native Community CLI and Expo.",
+          "tags": ["react-native", "expo", "cli"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "rn-004",
+          "text": "Migrated applications from Community CLI to Expo SDK 52.",
+          "tags": ["expo", "migration"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "rn-005",
+          "text": "Managed React Native version upgrades and resolved native compatibility issues.",
+          "tags": ["react-native", "migration", "native-modules"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "rn-006",
+          "text": "Strong understanding of React Hooks, TypeScript, Redux Toolkit, and component architecture.",
+          "tags": ["react-native", "typescript", "redux", "architecture"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "performanceOptimization": {
+      "label": "Performance Optimization",
+      "points": [
+        {
+          "id": "perf-001",
+          "text": "Optimized complex feed screens for smooth 60 FPS scrolling.",
+          "tags": ["performance", "feed", "60-fps"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "perf-002",
+          "text": "Reduced unnecessary re-renders using memoization and stable props.",
+          "tags": ["performance", "react", "optimization"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "perf-003",
+          "text": "Implemented viewability-based video playback to minimize resource consumption.",
+          "tags": ["performance", "video", "optimization"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "perf-004",
+          "text": "Applied lazy loading strategies for screens and heavy components.",
+          "tags": ["performance", "lazy-loading"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "perf-005",
+          "text": "Used React Native DevTools, Flipper, and profiling tools to identify bottlenecks.",
+          "tags": ["performance", "debugging", "flipper"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "perf-006",
+          "text": "Improved app startup and rendering performance by replacing pre-rendered bottom sheets with navigation-based modal screens.",
+          "tags": ["performance", "navigation", "architecture"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "perf-007",
+          "text": "Optimized image-heavy screens through conditional rendering techniques.",
+          "tags": ["performance", "images", "rendering"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "mobileArchitecture": {
+      "label": "Mobile Architecture",
+      "points": [
+        {
+          "id": "arch-001",
+          "text": "Designed scalable and modular React Native architectures.",
+          "tags": ["architecture", "react-native", "scalability"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "arch-002",
+          "text": "Built reusable component libraries and shared utilities.",
+          "tags": ["architecture", "components", "reusability"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "arch-003",
+          "text": "Maintained clean, type-safe, and maintainable codebases.",
+          "tags": ["typescript", "code-quality", "maintainability"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "arch-004",
+          "text": "Strong focus on readability, separation of concerns, and long-term scalability.",
+          "tags": ["architecture", "best-practices"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "apiAndIntegrations": {
+      "label": "API & Integrations",
+      "points": [
+        {
+          "id": "api-001",
+          "text": "Integrated REST APIs across multiple production applications.",
+          "tags": ["api", "rest", "integration"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak", "exp-growth-marketers"]
+        },
+        {
+          "id": "api-002",
+          "text": "Implemented Google OAuth authentication flows.",
+          "tags": ["authentication", "oauth", "google"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "api-003",
+          "text": "Integrated Razorpay payment gateway.",
+          "tags": ["payments", "razorpay", "integration"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "api-004",
+          "text": "Worked with push notifications and Firebase services.",
+          "tags": ["firebase", "push-notifications"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "api-005",
+          "text": "Implemented secure token handling and authentication flows.",
+          "tags": ["authentication", "security", "tokens"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "api-006",
+          "text": "Integrated AI-powered features using local LLM models.",
+          "tags": ["ai", "llm", "on-device"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        }
+      ]
+    },
+    "debuggingAndQA": {
+      "label": "Debugging & QA",
+      "points": [
+        {
+          "id": "qa-001",
+          "text": "Diagnosed and resolved production issues using native logs and crash reports.",
+          "tags": ["debugging", "production", "crash-reports"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "qa-002",
+          "text": "Used Charles Proxy for API debugging, network inspection, remote mapping, and testing failure scenarios.",
+          "tags": ["debugging", "charles-proxy", "networking"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "qa-003",
+          "text": "Simulated low-network and offline conditions for testing.",
+          "tags": ["qa", "networking", "testing"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "qa-004",
+          "text": "Collaborated closely with QA teams to identify and reproduce edge cases.",
+          "tags": ["qa", "collaboration"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "qa-005",
+          "text": "Experienced in handling device-specific and hardware-specific bugs.",
+          "tags": ["debugging", "device-specific"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "devOpsAndReleaseManagement": {
+      "label": "DevOps & Release Management",
+      "points": [
+        {
+          "id": "devops-001",
+          "text": "Configured CI/CD pipelines using Fastlane and Firebase App Distribution.",
+          "tags": ["ci-cd", "fastlane", "firebase"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak"]
+        },
+        {
+          "id": "devops-002",
+          "text": "Automated build generation, release notes, and deployment workflows.",
+          "tags": ["ci-cd", "automation", "devops"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "devops-003",
+          "text": "Managed TestFlight and Play Store release processes.",
+          "tags": ["release-management", "testflight", "play-store"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "devops-004",
+          "text": "Experience with EAS Build and Expo deployment workflows.",
+          "tags": ["expo", "eas-build", "deployment"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "devops-005",
+          "text": "Handled complete mobile release cycles from development to production.",
+          "tags": ["release-management", "mobile"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak"]
+        }
+      ]
+    },
+    "firebase": {
+      "label": "Firebase",
+      "points": [
+        {
+          "id": "firebase-001",
+          "text": "Firebase Crashlytics",
+          "tags": ["firebase", "crashlytics"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "firebase-002",
+          "text": "Firebase App Distribution",
+          "tags": ["firebase", "app-distribution"],
+          "relatedExperienceIds": ["exp-brokerapp"]
+        },
+        {
+          "id": "firebase-003",
+          "text": "Push Notifications",
+          "tags": ["firebase", "push-notifications"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "firebase-004",
+          "text": "Analytics and monitoring workflows",
+          "tags": ["firebase", "analytics", "monitoring"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "startupExperience": {
+      "label": "Startup Experience",
+      "points": [
+        {
+          "id": "startup-001",
+          "text": "Worked primarily in startup environments.",
+          "tags": ["startup"],
+          "relatedExperienceIds": ["exp-brokerapp", "exp-ambak", "exp-growth-marketers"]
+        },
+        {
+          "id": "startup-002",
+          "text": "Owned features from requirement gathering to production deployment.",
+          "tags": ["ownership", "full-cycle"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "startup-003",
+          "text": "Collaborated with product, design, backend, and QA teams.",
+          "tags": ["collaboration", "cross-functional"],
+          "relatedExperienceIds": ["exp-ambak"]
+        },
+        {
+          "id": "startup-004",
+          "text": "Planned releases, distributed work, and managed delivery timelines.",
+          "tags": ["project-management", "release-planning"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "startup-005",
+          "text": "Comfortable taking ownership of complete mobile products.",
+          "tags": ["ownership", "mobile"],
+          "relatedExperienceIds": []
+        }
+      ]
+    },
+    "backendExposure": {
+      "label": "Backend Exposure",
+      "points": [
+        {
+          "id": "backend-001",
+          "text": "Built and integrated APIs using Node.js and Express.",
+          "tags": ["nodejs", "express", "api", "backend"],
+          "relatedExperienceIds": ["exp-growth-marketers"]
+        },
+        {
+          "id": "backend-002",
+          "text": "Worked with MongoDB, PostgreSQL, SQL Server, and REST services.",
+          "tags": ["mongodb", "postgresql", "sql-server", "rest"],
+          "relatedExperienceIds": []
+        },
+        {
+          "id": "backend-003",
+          "text": "Experience with authentication and authorization systems.",
+          "tags": ["authentication", "authorization", "backend"],
+          "relatedExperienceIds": ["proj-messaging-app"]
+        }
+      ]
+    }
+  }
+}

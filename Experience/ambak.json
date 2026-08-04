@@ -1,0 +1,435 @@
+{
+  "id": "exp-ambak",
+  "company": "Ambak",
+  "role": "React Native Developer",
+  "employmentType": "intern-to-full-time",
+  "startDate": "2025-01",
+  "endDate": "2025-11",
+  "location": null,
+  "website": "https://ambak.com/",
+  "icon": "../../Icons/Ambak/AmbakIcon.svg",
+  "products": [
+    {
+      "name": "Ambak Yoddha",
+      "description": "Field sales app for business managers (Yoddhas) — check-in/checkout, tasks, meetings, commitments",
+      "platforms": ["android"],
+      "storeLinks": {
+        "android": "https://play.google.com/store/apps/details?id=com.ambak.yoddha"
+      }
+    },
+    {
+      "name": "Ambak Saathi",
+      "description": "Partner/channel partner app — onboarding, document upload, CIBIL/credit checks",
+      "platforms": ["android", "ios"],
+      "storeLinks": {
+        "android": "https://play.google.com/store/apps/details?id=com.ambak.saathi",
+        "ios": "https://apps.apple.com/in/app/ambak-saathi/id6474469003"
+      }
+    }
+  ],
+  "techStack": [
+    "React Native",
+    "Expo SDK 52",
+    "TypeScript",
+    "React Native Reanimated",
+    "Redux",
+    "Firebase",
+    "FCM Push Notifications",
+    "Fastlane",
+    "Stallion",
+    "WebView"
+  ],
+  "tools": [
+    "Xcode",
+    "Android Studio",
+    "Charles Proxy",
+    "Flipper",
+    "Firebase App Distribution",
+    "Firebase Analytics",
+    "Firebase Crashlytics",
+    "Cursor",
+    "Warp"
+  ],
+  "bullets": [
+    {
+      "id": "exp-ambak-001",
+      "text": "Delivered and maintained 2 production mobile applications (Ambak Yoddha and Ambak Saathi) in collaboration with backend, product, and QA teams.",
+      "tags": ["react-native", "production", "cross-functional"],
+      "metrics": { "appsDelivered": 2 }
+    },
+    {
+      "id": "exp-ambak-002",
+      "text": "Migrated applications from React Native Community CLI to Expo SDK 52, resolving deprecated module crashes, animation regressions, and bottom sheet scroll issues post-migration.",
+      "tags": ["expo", "migration", "react-native"],
+      "metrics": { "expoSdk": 52 }
+    },
+    {
+      "id": "exp-ambak-003",
+      "text": "Built the entire Yoddha Home dashboard — check-in/checkout, today's tasks, attendance, performance, meetings, and My Partner modules — coordinating with backend and production teams.",
+      "tags": ["react-native", "dashboard", "feature-ownership"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-004",
+      "text": "Revamped the Task List screen with a Reanimated calendar strip, date-range bottom sheet, quick filters with scroll-aware auto-hide, inline task actions, and CSV export for selected date ranges.",
+      "tags": ["react-native", "reanimated", "ui-ux"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-005",
+      "text": "Revamped critical check-in/checkout flow (AMB-1927), reducing API payload size and restructuring screens to remove redundant data dependencies.",
+      "tags": ["api", "optimization", "architecture"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-006",
+      "text": "Integrated TransUnion CIBIL credit checks on Saathi — credential input, WebView report, credit score display, dynamic lead widgets, and screenshot blocking on sensitive screens; handled 15+ API response cases.",
+      "tags": ["integration", "webview", "fintech", "security"],
+      "metrics": { "cibilCases": "15+" }
+    },
+    {
+      "id": "exp-ambak-007",
+      "text": "Built a deep-linkable PST/PET task status management screen with PagerView tabs, dynamic form fields for reschedule/reassign/out-of-geo/not-interested flows.",
+      "tags": ["deep-linking", "navigation", "forms"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-008",
+      "text": "Implemented FCM push notifications with deep linking; migrated dynamic linking from Firebase Dynamic Links to native Intent Filters (Android) and equivalent iOS handling.",
+      "tags": ["firebase", "push-notifications", "deep-linking"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-009",
+      "text": "Created a reusable native gallery component replacing custom image-upload screens across both apps, supporting single/multi-image selection.",
+      "tags": ["react-native", "components", "reusability"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-010",
+      "text": "Migrated state management from AsyncStorage to Redux for visit types and auto-checkout flows, improving consistency across sessions.",
+      "tags": ["redux", "state-management", "architecture"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-011",
+      "text": "Introduced Stallion OTA code push with a custom script for per-app, per-OS deployments and release notes — reducing QA turnaround on minor fixes.",
+      "tags": ["ota", "devops", "release-management"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-012",
+      "text": "Reconfigured Fastlane to validate credentials upfront, preventing late-stage distribution failures; added Firebase Analytics events across both apps for live bug debugging.",
+      "tags": ["fastlane", "ci-cd", "firebase", "analytics"],
+      "metrics": {}
+    },
+    {
+      "id": "exp-ambak-013",
+      "text": "Set up Fastlane CI/CD pipelines and Firebase Crashlytics for monitoring and production issue diagnosis.",
+      "tags": ["fastlane", "ci-cd", "firebase", "crashlytics"],
+      "metrics": {}
+    }
+  ],
+  "training": {
+    "period": "2025-02",
+    "durationWeeks": 2,
+    "activities": [
+      "Company, product, and service onboarding with mentor/buddy assignment",
+      "Shadowing business managers to understand product and target audience",
+      "Dummy React Native + TypeScript project to learn app structure"
+    ],
+    "resourceLinks": []
+  },
+  "workLog": [
+    {
+      "month": "2025-02",
+      "tickets": [
+        {
+          "id": "AMB-1399",
+          "title": "Dropdown Selector Issue",
+          "apps": ["yoddha", "saathi"],
+          "highlights": ["Fixed dropdown component positioning"]
+        },
+        {
+          "id": "AMB-1452",
+          "title": "Notification: Second Iteration Issues",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Refactored Notification List screen with proper structuring",
+            "Implemented deep linking logic",
+            "Added filters, unread messages UI, footer pagination with loader",
+            "Implemented delete-message animation",
+            "Improved overall UI and interaction flow"
+          ]
+        }
+      ]
+    },
+    {
+      "month": "2025-03",
+      "tickets": [
+        {
+          "id": "AMB-1665",
+          "title": "Redesign Yoddha Home",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Built entire Dashboard screen",
+            "Created Check-in/Checkout, Today's Task, Attendance, Your Performance, Your Meeting components",
+            "Coordinated with backend and production teams",
+            "Added search filter in RecordVisit > Lender (My Partner)",
+            "Introduced popup for meetings exceeding time limits"
+          ]
+        },
+        {
+          "id": "AMB-1703",
+          "title": "Redesign Yoddha Home Bug Fix",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Built My Partner component",
+            "Added custom filter with bottom sheet date selector",
+            "Enhanced UI and fixed minor bugs"
+          ]
+        },
+        {
+          "id": "AMB-1690",
+          "title": "Auto Checkout Yoddha",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Created proper visit types",
+            "Migrated data handling from AsyncStorage to Redux"
+          ]
+        },
+        {
+          "id": "fastlane-reconfig",
+          "title": "Fastlane FastFiles Reconfigurations",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Added upfront credential checks to prevent distribution-stage failures"
+          ]
+        },
+        {
+          "id": "AMB-1452-fcm",
+          "title": "FCM Notifications",
+          "apps": ["yoddha", "saathi"],
+          "highlights": ["Worked on FCM push notifications and deep linking"]
+        },
+        {
+          "id": "AMB-1634",
+          "title": "React Native Gallery",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Replaced custom image-upload screens with a common native gallery component",
+            "Supported configurable single/multi-image selection"
+          ]
+        }
+      ]
+    },
+    {
+      "month": "2025-04",
+      "tickets": [
+        {
+          "id": "AMB-1749",
+          "title": "Commitment Module",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Built dynamic Commitment module for daily targets (meetings, E2E pipelines, self pipelines, onboardings)",
+            "Table view with edit, CSV export to ABMs",
+            "Auto-created corresponding tasks in Task List screen"
+          ]
+        },
+        {
+          "id": "AMB-1754",
+          "title": "Task Screen Revamp",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Built Task List screen with date-range header, CSV share, and filters",
+            "Reanimated Mon–Sat calendar strip for date filtering",
+            "Scroll-aware quick filters to maximize list area",
+            "Task items with type/subtype/status-dependent appearance and inline actions",
+            "Add Task button for self/team task creation and assignment"
+          ]
+        },
+        {
+          "id": "AMB-1805",
+          "title": "E2E Pipeline and Onboarding Flow",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Created new E2E Pipeline and Onboarding task types per product requirements",
+            "Built creation flows and list items; integrated across all task-related screens"
+          ]
+        },
+        {
+          "id": "AMB-1814",
+          "title": "Live Bugs",
+          "apps": ["yoddha"],
+          "highlights": ["Name fix and fallback conditions when name unavailable"]
+        },
+        {
+          "id": "AMB-1812",
+          "title": "Meeting Details - Schedule Date Issue",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Fixed 'Scheduled for' reverting to check-in date on checkout",
+            "Applied schedule_date vs eta_from_date fallback logic"
+          ]
+        },
+        {
+          "id": "AMB-1794",
+          "title": "TU (Trans Union) on Saathi App and WebView",
+          "apps": ["saathi"],
+          "highlights": [
+            "Check credit screen, duplicate leads bottom sheets, loan type bottom sheets",
+            "Disclaimer screen with lead link, success/failure bottom sheets",
+            "Credit score screen and TransUnion WebView detailed CIBIL report",
+            "New Lead Details widget with multi-case handling",
+            "Screenshot blocking on sensitive-information screens"
+          ]
+        },
+        {
+          "id": "AMB-1847",
+          "title": "Status Management of PST/PET Assigned Tasks",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Separate deep-linkable screen for task status workflows",
+            "PagerView tabs: History, Mark as Done, Mark as Update, Update Status",
+            "Dynamic forms for Reschedule, Reassign, Out of Geo Location, Not Interested"
+          ]
+        },
+        {
+          "id": "AMB-1839",
+          "title": "PET: Welcome Call & Categorisation of Channel Partners",
+          "apps": ["saathi"],
+          "highlights": [
+            "Dynamic multi-step onboarding form driven by backend",
+            "Persisted step responses with prefilled state on app reopen",
+            "Integrated into Dashboard options selection"
+          ]
+        },
+        {
+          "id": "force-logout",
+          "title": "Force Logout on Unauthorized",
+          "apps": ["yoddha"],
+          "highlights": ["Global force logout on any unauthorized API response"]
+        },
+        {
+          "id": "service-revamp",
+          "title": "Push Notification & Dynamic Linking Service Revamp",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Revamped push notification service after dashboard redesign",
+            "Migrated from Firebase Dynamic Links to Intent Filters (Android) and iOS equivalent"
+          ]
+        },
+        {
+          "id": "AMB-1988",
+          "title": "PET: Welcome Call mobile bugs",
+          "apps": ["saathi"],
+          "highlights": ["Bug fixes for AMB-1839"]
+        },
+        {
+          "id": "AMB-1996",
+          "title": "Ask appropriate Saathi's doc according to PAN type",
+          "apps": ["saathi"],
+          "highlights": [
+            "Debugged dynamic document upload forms dependent on PAN type",
+            "Added IFSC validation with bank-prefix prefilling in UI"
+          ]
+        },
+        {
+          "id": "AMB-2020",
+          "title": "PAN type document bugs",
+          "apps": ["saathi"],
+          "highlights": ["Bug fixes for AMB-1996"]
+        }
+      ]
+    },
+    {
+      "month": "2025-05",
+      "tickets": [
+        {
+          "id": "AMB-1927",
+          "title": "Checkin Checkout API v1",
+          "apps": ["yoddha"],
+          "highlights": [
+            "Revamped critical check-in/checkout flow with meeting description, accomplishments, next meet date, and attendee selfie",
+            "Reduced API payload to essential fields only",
+            "Restructured files to remove redundant data dependencies across screens"
+          ]
+        },
+        {
+          "id": "AMB-2011",
+          "title": "All Remaining CIBIL Cases",
+          "apps": ["saathi"],
+          "highlights": [
+            "Extended CIBIL report component to handle 15+ TransUnion API response cases"
+          ]
+        },
+        {
+          "id": "firebase-events",
+          "title": "Firebase Events",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Added Firebase Analytics events across both apps for live bug debugging"
+          ]
+        },
+        {
+          "id": "knowledge-center",
+          "title": "Knowledge Center",
+          "apps": ["yoddha"],
+          "highlights": ["Ticket abandoned shortly after kickoff"],
+          "status": "abandoned"
+        }
+      ]
+    },
+    {
+      "month": "2025-06",
+      "tickets": [
+        {
+          "id": "expo-migration-bugs",
+          "title": "Bugs Related to Expo Migration",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Fixed crashes from deprecated modules",
+            "Fixed animation regressions"
+          ]
+        },
+        {
+          "id": "expo-bottom-sheet",
+          "title": "Bottom Sheet Issue Fix after Expo",
+          "apps": ["yoddha", "saathi"],
+          "highlights": ["Fixed scroll issues on certain bottom sheets post-Expo migration"]
+        },
+        {
+          "id": "checkout-cleanup",
+          "title": "Removal of Unused Files after Checkin Checkout Revamp",
+          "apps": ["yoddha"],
+          "highlights": ["Removed obsolete files after AMB-1927 restructure"]
+        },
+        {
+          "id": "stallion",
+          "title": "Stallion Integration",
+          "apps": ["yoddha", "saathi"],
+          "highlights": [
+            "Introduced Stallion OTA code push to avoid full rebuilds for minor fixes during QA",
+            "Built script to target app, OS, and custom release notes per deployment"
+          ]
+        },
+        {
+          "id": "AMB-2038",
+          "title": "Checkin Checkout API v1 (follow-up)",
+          "apps": ["yoddha"],
+          "highlights": []
+        }
+      ]
+    }
+  ],
+  "sourceDocuments": [
+    {
+      "type": "self-evaluation",
+      "title": "Self Evaluation (6 Month Intern at Ambak)",
+      "period": "2025-02 — 2025-06",
+      "path": null,
+      "notes": "Original PDF at ~/Downloads/Untitled document.pdf"
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,68 @@
+{
+  "id": "exp-brokerapp",
+  "company": "BrokerApp",
+  "role": "Mobile Application Developer",
+  "employmentType": "full-time",
+  "startDate": "2025-11",
+  "endDate": "present",
+  "location": null,
+  "website": "https://brokerapp.com/",
+  "icon": "../../Icons/BrokerApp/BrokerAppIcon.svg",
+  "products": [
+    {
+      "name": "BrokerApp",
+      "platforms": ["android", "ios"],
+      "storeLinks": {
+        "android": "https://play.google.com/store/apps/details?id=com.brokerapp.broker",
+        "ios": "https://apps.apple.com/in/app/brokerapp/id6480364900"
+      }
+    }
+  ],
+  "techStack": [
+    "React Native",
+    "TypeScript",
+    "Redux Toolkit",
+    "Firebase",
+    "Fastlane",
+    "Razorpay"
+  ],
+  "bullets": [
+    {
+      "id": "exp-brokerapp-001",
+      "text": "Engineered and maintained React Native cross-platform app used by 10K+ users on iOS and Android.",
+      "tags": ["react-native", "cross-platform", "production"],
+      "metrics": { "users": "10K+" }
+    },
+    {
+      "id": "exp-brokerapp-002",
+      "text": "Upgraded the application from React Native 0.77.4 to 0.88.3 while resolving build compatibility issues.",
+      "tags": ["react-native", "migration", "native-modules"],
+      "metrics": { "fromVersion": "0.77.4", "toVersion": "0.88.3" }
+    },
+    {
+      "id": "exp-brokerapp-003",
+      "text": "Streamlined the main feed and infinite scrolling using rendering and pagination strategies, reducing FPS drops and maintaining consistent 60 FPS performance, validated with Flipper and React Native Performance Monitor.",
+      "tags": ["performance", "optimization", "feed", "60-fps"],
+      "metrics": { "targetFps": 60 }
+    },
+    {
+      "id": "exp-brokerapp-004",
+      "text": "Automated CI/CD pipelines, reducing the release process from 5 manual steps to a single command for build generation, release notes, and deployments through Firebase App Distribution and TestFlight.",
+      "tags": ["ci-cd", "fastlane", "firebase", "testflight", "devops"],
+      "metrics": { "manualStepsBefore": 5, "manualStepsAfter": 1 }
+    },
+    {
+      "id": "exp-brokerapp-005",
+      "text": "Enabled Razorpay payment gateway support, handling 30+ monthly payments with a 90% success rate.",
+      "tags": ["payments", "razorpay", "integration"],
+      "metrics": { "monthlyPayments": "30+", "successRate": "90%" }
+    },
+    {
+      "id": "exp-brokerapp-006",
+      "text": "Introduced local LLM-powered features to generate AI-assisted titles and descriptions for user-generated posts.",
+      "tags": ["ai", "llm", "on-device"],
+      "metrics": {}
+    }
+  ],
+  "notes": null
+}
