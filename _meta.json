@@ -9,9 +9,7 @@
       "profile.json": "Headline, summary, job preferences"
     },
     "Education": {
-      "dtu.json": "B.Tech — Delhi Technological University",
-      "deen-bandhu-xii.json": "Class XII — Deen Bandhu Public School",
-      "dldav-x.json": "Class X — DL DAV Model School"
+      "education.json": "All education entries (consolidated array)"
     },
     "Achievements": {
       "entries.json": "Academic and competitive programming achievements"

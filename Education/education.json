@@ -1,0 +1,46 @@
+[
+  {
+    "id": "edu-dtu",
+    "institution": "Delhi Technological University (Formerly DCE)",
+    "degree": "B.Tech",
+    "field": "Engineering Physics",
+    "minor": "Computer Science",
+    "startDate": "2021-12",
+    "endDate": "2025-06",
+    "location": "Delhi, India",
+    "gpa": "8.8",
+    "highlights": [
+      "Department Rank 8"
+    ],
+    "coursework": [],
+    "notes": null
+  },
+  {
+    "id": "edu-dbps-xii",
+    "institution": "Deen Bandhu Public School, Ghevra, Delhi",
+    "degree": "Senior Secondary (Class XII)",
+    "field": "PCM",
+    "minor": null,
+    "startDate": null,
+    "endDate": "2020",
+    "location": "Delhi, India",
+    "gpa": null,
+    "highlights": [],
+    "coursework": [],
+    "notes": null
+  },
+  {
+    "id": "edu-dldav-x",
+    "institution": "DL DAV Model School, Shalimar Bagh, Delhi",
+    "degree": "Secondary (Class X)",
+    "field": "PCM",
+    "minor": null,
+    "startDate": null,
+    "endDate": "2018",
+    "location": "Delhi, India",
+    "gpa": null,
+    "highlights": [],
+    "coursework": [],
+    "notes": null
+  }
+]
