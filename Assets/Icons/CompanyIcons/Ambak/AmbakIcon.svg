@@ -1,0 +1,31 @@
+<svg
+    width="916"
+    height="1318"
+    viewBox="0 0 916 1318"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <!-- Triangle -->
+    <path
+        d="M915.911 1228.71H914.717C816.766 1080.63 648.741 982.956 457.901 982.956C267.062 982.956 99.0364 1080.63 1.08594 1228.71H0L457.956 245.785L915.911 1228.71Z"
+        fill="black"
+    />
+
+    <!-- Upper Circle -->
+    <ellipse
+        cx="457.956"
+        cy="78.1875"
+        rx="78.1876"
+        ry="78.1875"
+        fill="black"
+    />
+
+    <!-- Lower Circle -->
+    <ellipse
+    cx="457.956"
+    cy="1239.8125"
+    rx="78.1876"
+    ry="78.1875"
+    fill="black"
+/>
+</svg>
