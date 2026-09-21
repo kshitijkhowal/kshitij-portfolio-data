@@ -11,6 +11,7 @@
   "products": [
     {
       "name": "Ambak Yoddha",
+      "brandColor": "#008EB2",
       "description": "Field sales app for business managers (Yoddhas) — check-in/checkout, tasks, meetings, commitments",
       "platforms": ["android"],
       "storeLinks": {

@@ -6,6 +6,7 @@
   "endDate": null,
   "status": "published",
   "icon": "Assets/Icons/ProjectIcons/MetroConnect/MetroConnectIcon.svg",
+  "description": "A local-first Delhi NCR transit companion for route planning, official-style fares, interactive maps, live journey tracking, and detailed station information across DMRC, NMRC, Rapid Metro, Airport Express, and Namo Bharat.",
   "links": {
     "android": "https://play.google.com/store/apps/details?id=com.kshitij_khowal.MetroConnect",
     "ios": null,
@@ -13,25 +14,27 @@
     "demo": null
   },
   "techStack": [
-    "Expo",
-    "React Native",
+    "Expo 54",
+    "React Native 0.81",
     "TypeScript",
+    "Expo Router",
     "Redux Toolkit",
-    "Firebase Remote Config",
+    "Redux Persist",
+    "React Native Skia",
     "Expo Location",
     "Fuse.js",
-    "BFS"
+    "Firebase",
+    "Reanimated"
   ],
   "bullets": [
     {
       "id": "proj-mc-001",
-      "text": "Built a Delhi Metro route planner covering 250+ stations with dual optimization modes \u2014 BFS for fewest stops and a custom minimum-interchange pathfinder \u2014 across DMRC, Rapid Metro, and Airport Express lines.",
+      "text": "Plans journeys across DMRC, NMRC, Rapid Metro, Airport Express, and Namo Bharat with fastest, fewest-stations, and minimum-interchange route preferences.",
       "tags": [
         "react-native",
         "expo",
         "algorithms",
-        "bfs",
-        "graph-traversal"
+        "routing"
       ],
       "metrics": {
         "stations": "250+"
@@ -39,7 +42,7 @@
     },
     {
       "id": "proj-mc-002",
-      "text": "Implemented official-style fare estimation with distance-based DMRC slabs, Rapid Metro premium fares, and Airport Express matrix pricing, including weekday and holiday rate handling.",
+      "text": "Calculates official-style fares for DMRC weekdays and holidays, Rapid Metro, Airport Express, NMRC Aqua Line, and Namo Bharat.",
       "tags": [
         "fare-calculation",
         "business-logic",
@@ -49,23 +52,41 @@
     },
     {
       "id": "proj-mc-003",
-      "text": "Designed commute-focused mobile UX with fuzzy offline station search (Fuse.js), GPS nearest-station detection, live journey progress, saved quick routes, and adaptive light/dark themes.",
+      "text": "Renders an interactive Skia metro map with pan, zoom, line visibility controls, station labels, user location, and active-route highlighting.",
       "tags": [
-        "ui-ux",
-        "mobile-design",
-        "expo-location",
-        "fuse-js"
+        "react-native-skia",
+        "maps",
+        "gestures"
       ],
       "metrics": {}
     },
     {
       "id": "proj-mc-004",
-      "text": "Architected a modular TypeScript service layer for routing, fares, stations, and geo-location, with Redux Persist for local state and Firebase Remote Config for version-driven app update prompts.",
+      "text": "Tracks live journeys through GPS polling with remaining time and stations, route progress, and interchange or destination push notifications.",
       "tags": [
-        "architecture",
-        "redux",
-        "firebase",
-        "typescript"
+        "expo-location",
+        "notifications",
+        "live-journey"
+      ],
+      "metrics": {}
+    },
+    {
+      "id": "proj-mc-005",
+      "text": "Provides fuzzy station search, nearest-station detection, and detailed facilities, platforms, gates, parking, images, and Google Maps links.",
+      "tags": [
+        "fuse-js",
+        "stations",
+        "location"
+      ],
+      "metrics": {}
+    },
+    {
+      "id": "proj-mc-006",
+      "text": "Persists recent searches, quick stations, routes, and map settings locally, with light, dark, and system themes plus Remote Config update prompts.",
+      "tags": [
+        "redux-persist",
+        "offline",
+        "firebase"
       ],
       "metrics": {}
     }
