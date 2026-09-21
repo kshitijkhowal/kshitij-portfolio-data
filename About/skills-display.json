@@ -5,9 +5,9 @@
       "category": "Mobile",
       "icon": "smartphone",
       "skills": [
-        { "name": "React Native", "level": "Expert" },
-        { "name": "Expo", "level": "Expert" },
-        { "name": "React Native Reanimated", "level": "Intermediate" }
+        { "name": "React Native", "icon": "react" },
+        { "name": "Expo", "icon": "expo" },
+        { "name": "React Native Reanimated", "icon": "reanimated" }
       ]
     },
     {
@@ -15,10 +15,10 @@
       "category": "Languages & Frontend",
       "icon": "code",
       "skills": [
-        { "name": "JavaScript", "level": "Expert" },
-        { "name": "TypeScript", "level": "Intermediate" },
-        { "name": "React.js", "level": "Expert" },
-        { "name": "C / C++", "level": "Intermediate" }
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "React.js", "icon": "react" },
+        { "name": "C / C++", "icon": "cpp" }
       ]
     },
     {
@@ -26,11 +26,11 @@
       "category": "Backend & Databases",
       "icon": "database",
       "skills": [
-        { "name": "Node.js", "level": "Intermediate" },
-        { "name": "Express.js", "level": "Intermediate" },
-        { "name": "MongoDB", "level": "Intermediate" },
-        { "name": "PostgreSQL / SQL", "level": "Intermediate" },
-        { "name": "REST APIs", "level": "Expert" }
+        { "name": "Node.js", "icon": "nodejs" },
+        { "name": "Express.js", "icon": "express" },
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "PostgreSQL / SQL", "icon": "postgresql" },
+        { "name": "REST APIs", "icon": "api" }
       ]
     },
     {
@@ -38,9 +38,9 @@
       "category": "Cloud & Monitoring",
       "icon": "shield",
       "skills": [
-        { "name": "Firebase (Crashlytics, App Distribution)", "level": "Expert" },
-        { "name": "Google OAuth", "level": "Intermediate" },
-        { "name": "Socket.io", "level": "Intermediate" }
+        { "name": "Firebase", "icon": "firebase" },
+        { "name": "Google OAuth", "icon": "google" },
+        { "name": "Socket.io", "icon": "socketio" }
       ]
     },
     {
@@ -48,10 +48,10 @@
       "category": "Tools & CI/CD",
       "icon": "settings",
       "skills": [
-        { "name": "Fastlane / CI/CD", "level": "Expert" },
-        { "name": "Flipper & Performance Monitor", "level": "Intermediate" },
-        { "name": "Postman / Charles Proxy", "level": "Intermediate" },
-        { "name": "Git", "level": "Expert" }
+        { "name": "Fastlane / CI/CD", "icon": "cicd" },
+        { "name": "Flipper & Performance", "icon": "performance" },
+        { "name": "Postman / Charles Proxy", "icon": "postman" },
+        { "name": "Git", "icon": "git" }
       ]
     },
     {
@@ -59,9 +59,9 @@
       "category": "AI Tools",
       "icon": "cpu",
       "skills": [
-        { "name": "Cursor", "level": "Expert" },
-        { "name": "Claude", "level": "Expert" },
-        { "name": "On-device LLM features", "level": "Intermediate" }
+        { "name": "Cursor", "icon": "cursor" },
+        { "name": "Claude", "icon": "claude" },
+        { "name": "On-device LLM", "icon": "llm" }
       ]
     }
   ]
